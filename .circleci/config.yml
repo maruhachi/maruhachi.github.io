@@ -3,7 +3,7 @@ jobs:
   deploy:
     branches:
       only:
-			  - draft
+        - draft
     working_directory: ~/workspace
     docker:
       - image: cibuilds/hugo:0.56
