@@ -13,7 +13,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - ""
+            - "7e:80:90:1c:4c:b0:0b:d2:56:a5:12:d8:c1:b5:a0:14"
       - run:
           name: deploy
           command: make deploy
