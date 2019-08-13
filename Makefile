@@ -1,7 +1,7 @@
 deploy: ## Deploy posts
 	git submodule update -i
-	hugo
 	mkdir -p tmp && cd tmp && git clone git@github.com:maruhachi/maruhachi.github.io.git
+	hugo
 	rm -fr $(GITHUB_DIR)/*
 	cp -fr docs/* $(GITHUB_DIR)/
 	cd $(GITHUB_DIR)/ && git config --local user.name maruhachi && git config --local user.email konchan1129@gmail.com
