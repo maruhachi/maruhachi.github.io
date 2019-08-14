@@ -1,8 +1,9 @@
-baseURL = "https://maruhaci.github.io"
+baseURL = "https://maruhachi.github.io/docs/"
+# baseURL = "http://localhost:8081/"
 title = "Blogogogogog"
 theme = "m10c"
 paginate = 5
-publishDir = "docs"
+publishDir = "blog"
 
 [params]
   author = "maruhachi"
