@@ -1,10 +1,11 @@
-baseURL = "https://example.com"
-title = "Your title"
+baseURL = "https://maruhaci.github.io"
+title = "Blogogogogog"
 theme = "m10c"
 paginate = 5
+publishDir = "docs"
 
 [params]
-  author = "John Doe"
+  author = "maruhachi"
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium."
   [[params.social]]
     name = "github"
