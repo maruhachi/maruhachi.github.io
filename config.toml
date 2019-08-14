@@ -1,4 +1,4 @@
-baseURL = "https://maruhachi.github.io/docs/"
+baseURL = "https://maruhachi.github.io/blog/"
 # baseURL = "http://localhost:8081/"
 title = "Blogogogogog"
 theme = "m10c"
